@@ -1,3 +1,8 @@
+# Delta electro code
+# Md Touhid Islam
+# https://www.facebook.com/shourov40
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 
