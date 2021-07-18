@@ -1,3 +1,8 @@
+# Delta electro code
+# Md Touhid Islam
+# https://www.facebook.com/shourov40
+
+
 from tkinter import *
 from time import strftime
 
