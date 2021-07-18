@@ -123,7 +123,7 @@ bin_data = str(dec).replace('0b', '')
 data = [0, 0, 0, 0, 0, 0, 0, 0]
 for i in range(len(bin_data)):
     data[8 - len(bin_data) + i] = int(bin_data[i])
-print("Data in binary format: ",bin_data)
+print("Data in binary format: ",data)
 nrz_L(data)
 nrz_I(data)
 ami(data)
