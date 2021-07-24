@@ -2,8 +2,7 @@
 Delta electro code
 Md Touhid Islam
 Depertment of CSE, HSTU
-https://www.facebook.com/shourov40
-
+https://www.facebook.com/Shourov40
 """
 
 
