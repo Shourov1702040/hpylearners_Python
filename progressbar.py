@@ -1,7 +1,9 @@
-# Delta electro code
-# Md Touhid Islam
-# https://www.facebook.com/shourov40
-
+"""
+Delta electro code
+Md Touhid Islam
+Depertment of CSE, HSTU
+https://www.facebook.com/Shourov40
+"""
 
 from tkinter import *
 from tkinter.ttk import *
