@@ -1,0 +1,14 @@
+//For python terminus build
+
+{
+  "target": "terminus_exec",
+  "cancel": "terminus_cancel_build",
+
+  "focus": true,
+
+  "shell_cmd": "python -u \"$file\"",
+  "env": {
+  "PATH": "$PATH;"
+  }
+
+}
