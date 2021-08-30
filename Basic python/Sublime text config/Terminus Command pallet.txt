@@ -1,0 +1,12 @@
+[
+   {
+        "caption": "Terminal (panel)",
+        "command": "terminus_open",
+        "args"   : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "title": "Command Prompt",
+           "panel_name": "Terminus"
+        }
+   },
+]  
