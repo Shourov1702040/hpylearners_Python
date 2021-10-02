@@ -29,7 +29,7 @@ class MainAppjbsidis(MDApp):
 
             items.add_widget(IconLeftWidget(icon='account'))
             items.add_widget(IconRightWidget(icon='all.png'))
-            # ck = MDCheckbox()
+            # ck = MDCheckbox(on_active=self.save_checked)
             # items.add_widget(IconRightWidget(ck))
             self.root.ids.scroll.add_widget(items)
 
