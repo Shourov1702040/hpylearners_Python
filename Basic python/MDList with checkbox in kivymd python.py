@@ -33,7 +33,7 @@ class MainAppjbsidis(MDApp):
             # items.add_widget(IconRightWidget(ck))
             self.root.ids.scroll.add_widget(items)
 
-    def save_checked(self):
+    def save_checked(self,x):
         print('OK')
                 
     def save_checked2(self):
