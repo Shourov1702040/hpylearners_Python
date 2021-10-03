@@ -1,5 +1,4 @@
 from kivy.lang import Builder
-
 from kivy.properties import StringProperty
 from kivymd.app import MDApp
 from kivymd.uix.list import OneLineListItem,TwoLineAvatarListItem,TwoLineAvatarIconListItem
@@ -24,19 +23,31 @@ class MainAppjbsidis(MDApp):
         return Builder.load_string(KV)
 
     def on_start(self):
+        self.add_checkboc()
+
+    def check_press_f(self,val, instance_table):
+        self.ck_list.append(val)
+         
+
+    def save_checked2(self):
+        print(self.ck_list)
+        self.add_checkboc()
+        
+    def add_checkboc(self):
+        self.ck_list = []
+        self.root.ids.scroll.clear_widgets()
         for rec in range(10): 
-            items = TwoLineAvatarIconListItem(text=f"iTem {rec}", secondary_text=f"iTem {rec}{rec}",on_release=self.save_checked)
+            items = TwoLineAvatarIconListItem(text=f"iTem {rec}", secondary_text=f"iTem {rec}{rec}")
+
+            right_I = IconRightWidget(icon='nothing.png')
+            from functools import partial
+            ck = MDCheckbox(active= False)
+            ck.bind(on_release=partial(self.check_press_f,rec))
+            right_I.add_widget(ck)
 
             items.add_widget(IconLeftWidget(icon='account'))
-            items.add_widget(IconRightWidget(icon='all.png'))
-            # ck = MDCheckbox(on_active=self.save_checked)
-            # items.add_widget(IconRightWidget(ck))
-            self.root.ids.scroll.add_widget(items)
+            items.add_widget(right_I)
 
-    def save_checked(self,x):
-        print('OK')
-                
-    def save_checked2(self):
-        print('OK')
+            self.root.ids.scroll.add_widget(items)
                 
 MainAppjbsidis().run()
