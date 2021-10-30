@@ -1,1 +1,6 @@
 
+
+                                                                  This is a simple python script for sending gmail. 
+                                                              One have to activate the less-secure-app for this purpose. 
+
+
