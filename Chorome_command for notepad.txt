@@ -1,0 +1,11 @@
+
+
+
+
+<Command name="Launch in Chrome" Ctrl="yes" Alt="yes" Shift="yes" Key="82">chrome "$(FULL_CURRENT_PATH)"</Command>
+
+
+
+
+
+
