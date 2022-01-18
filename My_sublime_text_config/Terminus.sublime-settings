@@ -1,0 +1,14 @@
+{
+    "theme": "user",
+    "user_theme_colors": {      
+        "background": "#121212",
+        "foreground": "#D2D2D2"
+    },
+    "view_settings": {
+        "font_face":"consolas",
+         "font_size": 12,
+         "font.bold": false,
+    },
+    "auto_complete_triggers": [{"selector": "source.python - string - comment - constant.numeric", "characters": "."}],
+
+}

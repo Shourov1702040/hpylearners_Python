@@ -1,0 +1,103 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+	"variables":
+	{
+		
+	},
+	"globals":
+  	{
+  		
+  	},
+
+
+
+	"rules":
+	[
+
+		{
+		    "class": "title_bar",
+		    "settings": ["themed_title_bar"],
+			"fg": "#EEE",
+	    	"bg": "#020202", 
+		},
+
+
+
+		{
+			"class": "sidebar_container",
+			"parents": [{"class": "window", "attributes": ["file_dark"]}],
+			"layer0.tint": "#020202",
+		},
+
+		{
+			"class": "sidebar_heading",
+			"fg": "#4FA2FF",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size_lg)",
+			"shadow_color": "color(black a(0.1))",
+			"shadow_offset": [0, 1],
+			"font.size": 14.6,
+		},
+
+		{
+			"class": "sidebar_label",
+			"fg": "#DDE",
+			"font.size": 13.8,
+			// "font.bold": true,
+
+		},
+
+		
+		{
+			"class": "tabset_control",
+			"settings": {"file_tab_style": ["", "rounded", "square"]},
+			"parents": [{"class": "edit_window", "attributes": ["file_dark"]}],
+			"layer0.tint": "#020202"
+		},
+
+		{
+			"class": "tab_control",
+			"settings": {"file_tab_style": ["", "rounded", "square"]},
+			"parents": [{"class": "edit_window", "attributes": ["file_dark"]}],
+			"layer0.tint": "#020202",
+		},
+		
+		{
+			"class": "tab_label",
+			"font.size": 12.4,
+		},
+
+		// selected tab 
+		{
+			"class": "tab_label",
+			"parents": [{"class": "tab_control", "attributes": ["selected"]}],
+			"fg": "#9BBEE8",
+			"font.bold": true,
+		},
+
+		{
+	        "class": "tab_control",
+	        "attributes": ["selected"],
+	        "tint_modifier": "rgb(45,45,45)",
+
+    	},
+
+
+		// Status bar -------------------------
+		{
+			"class": "status_bar",
+			"parents": [{"class": "window", "attributes": ["file_dark"]}],
+			// "layer0.tint": "#0076AE",
+			"layer0.tint": "#0076AF",
+		},
+		{
+			"class": "label_control",
+			"parents": [{"class": "status_bar"}],
+			"fg": "#FFF",
+			"font.size": 13.5,
+			"shadow_offset": [2.8,2.6]
+		},
+
+	]
+}
+

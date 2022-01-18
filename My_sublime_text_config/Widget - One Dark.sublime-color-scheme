@@ -1,0 +1,138 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+   "variables":
+   {
+   },
+   "globals":
+   {
+      "background": "rgb(19,19,19)",
+      //"caret": "#FFF",
+      "line_highlight": "rgb(29,29,32)",
+
+   },
+   "rules":
+   [
+         {
+            "name": "String",
+            "scope": "string",
+            "foreground": "#D19A83",
+            //#76BA74, #9ACC99
+         },
+         {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#CCC",
+         },
+         
+         
+         {
+            "name": "Keyword operator",
+            "scope": "keyword.operator",
+            "foreground": "#CCC",
+         },
+         {
+            "scope": "source.c++ meta.preprocessor.include.c++ string.quoted.other.lt-gt.include.c++",
+            "foreground": "#CA86EE",
+         },
+         
+         //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+         {
+          "scope": "keyword",
+          "foreground": "#569cd6",
+         },
+
+            // python keywords
+         {
+            "name": "Keyword control",
+            "scope": "keyword.control",
+            "foreground": "#569cd6",
+         },
+            // fucntion call
+         {
+            "name": "Variable function",
+            "scope": "variable.function",
+            "foreground": "#569cd6",
+         },
+
+         {
+            "name": "Entity name function",
+            "scope": "entity.name.function",
+            "foreground": "#CCC",
+         },
+            // methods call
+         {
+            "name": "Support",
+            "scope": "support",
+            "foreground": "#569cd6",
+         },
+
+         {
+            "name": "Entity name",
+            "scope": "entity.name",
+            "foreground": "#CCC",
+         },
+         //for self keyword
+         {
+            "scope": "variable.language.python",
+            "foreground": "#CCC",
+         },
+         {
+            "scope": "source.python meta.class.inheritance.python entity.other.inherited-class.python",
+            "foreground": "#CCC",
+         }, 
+
+         
+
+         // <?php ?> tag color
+         {
+         "name": "PHP Tags",
+         "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+         "foreground": "#569cd6",
+         },
+         {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "#CCC",
+         },
+
+         {
+            "name": "Storage type",
+            "scope": "storage.type",
+            "foreground": "#569cd6",
+         },
+
+         {
+            "name": "Variable parameter",
+            "scope": "variable.parameter",
+            "foreground": "#CCC",
+         },
+
+         //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+         // Htmls colors
+         {
+            "name": "Entity",
+            "scope": "entity",
+            // "foreground": "#9cdcfe",
+            "foreground": "#9BBFE8",
+         },
+         {
+            "name": "Constant language",
+            "scope": "constant.language",
+            // "foreground": "#9cdcfe",
+            "foreground": "#9BBFE8",
+         },
+         {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "#569cd6",
+         },
+
+         // CSS
+         {
+            "scope": "source.css meta.property-list.css meta.block.css meta.property-name.css support.type.property-name.css",
+            "foreground": "#9BBFE8",
+         },
+
+   ]
+}
+

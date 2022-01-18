@@ -1,0 +1,12 @@
+{
+  "target": "terminus_exec",
+  "cancel": "terminus_cancel_build",
+
+  "focus": true,
+
+  "shell_cmd": "php \"$file\"",
+  "env": {
+    "PATH": "$PATH;C:\\xampp\\php"
+  }
+
+}

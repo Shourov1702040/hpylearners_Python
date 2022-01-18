@@ -1,0 +1,12 @@
+{
+  "target": "terminus_exec",
+  "cancel": "terminus_cancel_build",
+
+  "focus": true,
+
+  "shell_cmd": "python -u \"$file\"",
+  "env": {
+    "PATH": "$PATH;C:\\Users\\Shourov\\AppData\\Local\\Programs\\Python\\Python38"
+  }
+
+}
