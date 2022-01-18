@@ -1,0 +1,40 @@
+[
+    { 
+        "keys": ["alt+n"], "command": "build" 
+    },
+        { "keys": ["alt+a"], "command": "show_panel", "args": {"panel": "console", "toggle": true} 
+    },
+
+    { "keys": ["ctrl+q"], "command": "toggle_minimap" },
+
+    
+    {
+       "keys": ["alt+y"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+    },
+
+
+    {
+       "keys": ["alt+t"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "powershell.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+    },
+
+    { 
+        "keys": ["alt+,"], "command": "terminus_close", 
+        "context": [{ "key": "terminus_view"}]
+    },
+
+    {
+        "keys": ["ctrl+alt+m"], "command": "toggle_menu"
+    }
+]

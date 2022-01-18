@@ -1,0 +1,22 @@
+// A File Icon Preferences – User
+// ================================================================
+{
+	"color": "#0071CC",
+	"color_on_select": "#497CE3",
+	"opacity": 0.99,
+	"dev_mode": true,
+
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"A File Icon",
+		"Jedi - Python autocompletion",
+		"Kivy Language",
+		"Package Control",
+		"Terminus",
+		"Theme - One Dark",
+	],
+	"in_process_packages":
+	[
+	],
+}
